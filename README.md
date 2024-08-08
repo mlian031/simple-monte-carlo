@@ -16,3 +16,13 @@ This project simulates Geometric Brownian Motion (GBM) for financial assets and 
 This file simulates the call and put option price of standard European options using a simple monte carlo simulation. The graph is compared against the black scholes computation of the option price.
 
 ![](Convergence_15000_trials.jpg)
+*Price convergence after 15000 trials, mu = risk-free rate*
+
+![](Convergence_1000_trials.jpg)
+*Price convergence after 1000 trials, mu=0.08, risk-free rate=0.05*
+
+![](Convergence_ITM.jpg)
+*Price convergence for an ITM strike price, mu=risk-free rate*
+
+![](Convergence_OTM.jpg)
+*Price convergence for an OTM strike price, mu=risk-free rate*
