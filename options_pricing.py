@@ -71,5 +71,5 @@ if __name__ == "__main__":
     N = 1000      # Underlying simulations
 
     option_pricing = OptionPricing(S0, K, T, r, sigma, mu, M, N)
-    num_trials = 5000
+    num_trials = 15000
     option_pricing.plot_convergence(num_trials)

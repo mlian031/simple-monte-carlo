@@ -13,3 +13,6 @@ This project simulates Geometric Brownian Motion (GBM) for financial assets and 
 
 ## Options pricing model
 
+This file simulates the call and put option price of standard European options using a simple monte carlo simulation. The graph is compared against the black scholes computation of the option price.
+
+![](Convergence_15000_trials.jpg)
