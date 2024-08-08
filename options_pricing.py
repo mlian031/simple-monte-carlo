@@ -66,10 +66,10 @@ if __name__ == "__main__":
     T = 1         # Time to maturity
     r = 0.05      # Risk-free rate
     sigma = 0.2   # Volatility
-    mu = 0     # Drift
+    mu = 0.05     # Drift
     M = 1000      # Time step
     N = 1000      # Underlying simulations
 
     option_pricing = OptionPricing(S0, K, T, r, sigma, mu, M, N)
-    num_trials = 1500
+    num_trials = 5000
     option_pricing.plot_convergence(num_trials)
